@@ -1,6 +1,6 @@
 <div align="center">
 
-# Custom Cursor: Two Circles with Filter Effect and Motion Delay | Crimson
+# Animated Fragment Slideshow. JavaScript | Crimson
 
 <img src="admin/base.png">
 
