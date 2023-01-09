@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Animated Fragment Slideshow. JavaScript | Crimson</title>
+
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/slider.css" />
+
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+
+	<body class="demo-1">
+		
+		<main>
+			<div class="content">
+				<!-- Pieces Slider -->
+				<div class="pieces-slider">
+					<!-- Each slide with corresponding image and text -->
+					<div class="pieces-slider__slide">
+						<img class="pieces-slider__image" src="https://images.unsplash.com/photo-1519111887837-a48ccf9edc00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="">
+						<h2 class="pieces-slider__text">Crimson</h2>
+					</div>
+					<div class="pieces-slider__slide">
+						<img class="pieces-slider__image" src="https://images.unsplash.com/photo-1586156938613-769b0353c8fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="">
+						<h2 class="pieces-slider__text">SUBUX</h2>
+					</div>
+					<div class="pieces-slider__slide">
+						<img class="pieces-slider__image" src="https://images.unsplash.com/photo-1556035511-3168381ea4d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80" alt="">
+						<h2 class="pieces-slider__text">Love me again</h2>
+					</div>
+					<div class="pieces-slider__slide">
+						<img class="pieces-slider__image" src="https://images.unsplash.com/photo-1496337589254-7e19d01cec44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="">
+						<h2 class="pieces-slider__text">Red Flight</h2>
+					</div>
+					<div class="pieces-slider__slide">
+						<img class="pieces-slider__image" src="https://images.unsplash.com/photo-1549342902-be005322599a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="">
+						<h2 class="pieces-slider__text">Fun Fun Run</h2>
+					</div>
+					<!-- Canvas to draw the pieces -->
+					<canvas class="pieces-slider__canvas"></canvas>
+					<!-- Slider buttons: prev and next -->
+					<button class="pieces-slider__button pieces-slider__button--prev">prev</button>
+					<button class="pieces-slider__button pieces-slider__button--next">next</button>
+				</div>
+			</div>
+		</main>
+		<script src='js/anime.min.js'></script>
+		<script src='js/pieces.min.js'></script>
+		<script src='js/demo.js'></script>
+	</body>
+</html>
